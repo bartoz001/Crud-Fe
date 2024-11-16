@@ -3,7 +3,7 @@ import React from "react";
 const ProductContext = React.createContext();
 
 const ProductProvider = ({ children }) => {
-    const URL = "http://localhost:5000/api";
+    const URL = "http://localhost:3000/api";
 
     const getProduct = async () => {
       try {
