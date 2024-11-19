@@ -3,7 +3,7 @@ import  {ProductContext}  from "../Context/ProductContext";
 export default function Register() {
   const {products} = useContext(ProductContext)
   // console.log(products)
-  console.log(products)
+  // console.log(products)
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
     <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-lg shadow-md">
@@ -52,9 +52,9 @@ export default function Register() {
         >
           Register
         </button>
-        <p class="text-sm text-center text-gray-600">
+        <p className="text-sm text-center text-gray-600">
         Already have an account?
-        <a href="/login" class="font-medium text-blue-600 hover:text-blue-500">Log in</a>
+        <a href="/login" className="font-medium text-blue-600 hover:text-blue-500">Log in</a>
       </p>
       </form>
     </div>

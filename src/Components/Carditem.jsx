@@ -47,7 +47,8 @@ export default function Carditem() {
             ))}
           </div>
         )}
-      </div>
+      </div>     
+
     </>
   );
 }
